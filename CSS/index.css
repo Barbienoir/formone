@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-image: url(../pexels-godisable-jacob-226636-871495.jpg);
+    background-size: cover;
+    box-sizing: border-box;
+    object-fit: contain;
+    display: flex;
+    background-repeat: no-repeat;
+    font-family: Arial, sans-serif;
+   
+    
+}
+.container{
+    padding: 50px;
+    width: 800px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    box-shadow: 7px;
+    background-color: white;
+    gap: 10px;
+    margin-top: 75px;
+   
+}
+.title{
+    box-shadow: 10px;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.left{
+    width: 50%;
+}
+#image{
+    box-sizing: border-box;
+    object-fit: cover;
+    background-size: cover; 
+}
+.right { 
+    padding-top: 30px;
+    width: 50%;
+}
+.input-group{
+    display: flex;
+    gap: 20px;
+}
+ input{
+   width: 60%;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid black;
+    margin-bottom: 25px;
+}
+ input::placeholder{
+    color: black;
+}
+i{
+    margin-left: -20px;
+}
+form h3 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    gap: 10px;
+}
+
+
+input::placeholder {
+    color: #131212;
+}
+
+
+button {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    height: 30px; 
+    border: none;
+    color: white;
+    background-color: rgb(13, 13, 13);
+    cursor: pointer;
+    letter-spacing: 1px;
+    box-shadow: 10px;
+    margin-bottom: 25px;
+   
+}
+@media screen and (max-width:780px) {
+    .container{
+        display: flex;
+        flex-direction: column;
+    }
+    
+}
+
+
